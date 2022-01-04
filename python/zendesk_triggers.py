@@ -1,6 +1,9 @@
 import json
 import csv
 
+# random script for parsing some info out of Zendesk triggers data
+# https://developer.zendesk.com/api-reference/ticketing/business-rules/triggers/
+
 with open("/Volumes/GoogleDrive/Shared drives/analytics/data/zendesk_triggers.json", "r") as json_file:
     data = json.load(json_file)
     triggers = data["triggers"]
