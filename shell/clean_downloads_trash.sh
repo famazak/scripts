@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Cleanup some stuff on my system
+
 thisUser="$(whoami)"
 echo "Deleting the following folders for $thisUser"
 echo "Downloads"
